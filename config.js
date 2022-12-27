@@ -2,26 +2,27 @@
 
 module.exports = {
     // spotify/game/twitch
-    "mode": "", 
+    "mode": "game", 
     // dnd/online/idle
-    "status": "",
+    "status": "online",
 
     "game": {
-        "applicationID": "",
+        "applicationID": "1056106819497496629",
 
-        "name": "", // title
-        "details": "", // first row below title
-        "state": "", // row below first row
+        "name": "AutoCad", // title
+        "details": "Workspace: Linear ISO", // first row below title
+        "state": "Editing: LINEAR-ISO.dwg", // row below first row
 
-        "largeImageKey": "", // Large Image
-        "largeImageText": "", // the text when img surrounded (default is largeimage name in dev portal)
+        "largeImageKey": "autocad", // Large Image
+        "largeImageText": "AutoCad", // the text when img surrounded (default is largeimage name in dev portal)
 
-        "smallImageKey": "", // Small Image
-        "smallImageText": "",
+        "smallImageKey": "autodesk", // Small Image
+        "smallImageText": "AutoDesk 2023",
         
         // Date.now() Epoch timestamps
-        "startTimestamp": "", // time elapsed since this timestamp (increase ++)
-        "endTimestamp": "" // time left since this timestamp (decrease --)
+        "startTimestamp": Date.now(), // time elapsed since this timestamp (increase ++)
+        "endTimestamp": "", // time left since this timestamp (decrease --)
+      
     },
     "twitch": {
         "applicationID": "",
